@@ -1,0 +1,98 @@
+
+
+.container {
+	width: 768;
+	height: 1024;
+	float: center;
+	background: white; 
+}
+
+	#rowtop {
+		width: 768;
+		height: 129;
+		float: left; 
+		background: darkgrey;
+	}
+
+		#header {
+			width: 200;
+			height: 100;
+			margin-top: 30;
+			margin-left: 305;
+			float: left; 
+			background: darkgrey;
+		}
+
+	#leftcol {
+		width: 284;
+		height: 461;
+		float: left; 
+		background: lightgrey;
+	}
+
+	#middlecol {
+		width: 200;
+		height: 461;
+		float: left; 
+		background: lightgrey;
+	}
+
+		#greenbox {
+			width: 200;
+ 			height: 200;
+ 			float: left;
+ 			margin-bottom: 61;
+ 			background: green; 
+		}
+
+			#redbox {
+			width: 200;
+ 			height: 200;
+ 			float: left;
+ 			background: red; 
+		} 
+
+ 		#bluebox {
+ 			width: 200; 
+ 			height: 200; 
+ 			float: left;
+ 			background: blue;  
+ 		} 
+
+ 			#orangebox {
+ 			width: 200; 
+ 			height: 200; 
+ 			float: left;
+ 			margin-top: 61;
+ 			background: orange;  
+ 		} 
+
+	#rightcol {
+		width: 284;
+		height: 461;
+		float: left;
+		background: lightgrey;
+	}
+
+	#rowbottom {
+		width: 768;
+		height: 434;
+		float: left; 
+		background: darkgrey;
+	}
+
+		#returnhome {
+			width: 100;
+			height: 50;
+			float: left;
+			margin-top: 61;
+			margin-left: 334; 
+			background: darkgrey;
+		}
+
+
+
+
+
+
+
