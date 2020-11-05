@@ -10,3 +10,19 @@
 	color: darkgrey;
 	margin-left: 256;
 }
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: darkgrey;
+}
+
+a:active{
+	color: lightgrey;
+}
