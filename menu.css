@@ -1,11 +1,12 @@
 
 .container{
-	width: 767;
-	height: 1366;
+	width: 1024;
+	height: 768;
 	color: lightblue;
 }
 
 
 #menu{
 	color: darkgrey;
+	margin-left: 256;
 }
