@@ -1,6 +1,7 @@
 
 body {
 	background-color: darkgrey;
+	font-family: "georgia";
 }
 
 .container{
@@ -16,7 +17,7 @@ body {
 
 ul{
  	list-style-type: none;
-	margin-top: 50;
+	margin-top: 40;
  	padding: 0;
  	line-height: 3;
  	font-size: 24;
