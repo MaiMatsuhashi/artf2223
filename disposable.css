@@ -1,0 +1,93 @@
+body{
+	background: url(sky.jpg);
+  background-size: 100%;
+  text-align: center;
+  font-family: "georgia";
+}
+
+#header{
+  width: 100%;
+  height: 100;
+  margin-top: 100;
+  margin-bottom: 50;
+  color: ivory;
+}
+
+.doodle{
+  text-align: center;
+  width: 100%;
+  height: 100;
+}
+
+
+.Dflip, .Iflip, .S1flip, .Pflip, .Oflip, .S2flip, .Aflip, .Bflip, .Lflip, .Eflip   {
+  float: left;
+  background-color: transparent;
+  width: 140px;
+  height: 160px;
+  border: 1px solid transparent;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.Dinner, .Iinner, .S1inner, .Pinner, .Oinner, .S2inner, .Ainner, .Binner, .Linner, .Einner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Dflip:hover .Dinner, .Iflip:hover .Iinner, .S1flip:hover .S1inner, .Pflip:hover .Pinner, .Oflip:hover .Oinner, .S2flip:hover .S2inner, .Aflip:hover .Ainner, .Bflip:hover .Binner, .Lflip:hover .Linner, .Eflip:hover .Einner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Dfront, .Dback, .Ifront, .Iback, .S1front, .S1back, .Pfront, .Pback, .Ofront, .Oback, .S2front, .S2back,  .Afront, .Aback, .Bfront, .Bback, .Lfront, .Lback, .Efront, .Eback {
+  position: absolute;
+  width: 140;
+  height: 160;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.Dfront, .Ifront, .S1front, .Pfront, .Ofront, .S2front, .Afront, .Bfront, .Lfront, .Efront {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.Dback, .Iback, .S1back, .Pback, .Oback, .S2back, .Aback, .Bback, .Lback, .Eback {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+#bottomrow{
+  width: 100%;
+  height: auto;
+  margin-top: 150;
+  color: ivory;
+}
+
+a{
+  color: ivory;
+  text-decoration: none;
+}
+
+a:hover{
+     color: lightgrey; 
+     text-decoration: none; 
+     cursor: pointer;  
+}
+
+
+
+
+
+
+
+
