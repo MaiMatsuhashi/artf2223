@@ -1,6 +1,6 @@
 
 body {
-	background-color: #606C38;
+	background-color: #335C67;
 	font-family: "georgia";
 }
 
@@ -8,26 +8,26 @@ body {
 	width: 1366;
 	height: 768;
 	text-align: center;
-	color: #BC6C25;
+	color: #FFF3B0;
 }
 
 
 ul{
  	list-style-type: none;
-	margin-top: 25;
+	margin-top: 10;
  	padding: 0;
  	line-height: 3;
  	font-size: 24;
 }
 
 a{
-    color: #FEFAE0;
+    color: #FFF3B0;
     text-decoration: none;
-    margin-bottom: 200;
+    margin-bottom: 100;
 }
 
 a:hover{
-     color: #DDA15E; 
+     color: #E09F3E; 
      text-decoration: none; 
      cursor: pointer;  
 }
