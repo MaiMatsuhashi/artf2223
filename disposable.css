@@ -1,30 +1,31 @@
 body{
-	background: url(sky.jpg);
-  background-size: 100%;
-  text-align: center;
+	background: white;
   font-family: "georgia";
 }
 
 #header{
   width: 100%;
-  height: 100;
-  margin-top: 100;
-  margin-bottom: 50;
-  color: ivory;
+  height: auto;
+  margin-top: 50;
+  color: black;
+  text-align: center;
 }
 
 .doodle{
-  text-align: center;
   width: 100%;
-  height: 100;
+  height: auto;
+}
+
+.Dflip{
+  margin-left: 25%;
 }
 
 
 .Dflip, .Iflip, .S1flip, .Pflip, .Oflip, .S2flip, .Aflip, .Bflip, .Lflip, .Eflip   {
   float: left;
   background-color: transparent;
-  width: 140px;
-  height: 160px;
+  width: 5%;
+  height: 12%;
   border: 1px solid transparent;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -46,8 +47,8 @@ body{
 /* Position the front and back side */
 .Dfront, .Dback, .Ifront, .Iback, .S1front, .S1back, .Pfront, .Pback, .Ofront, .Oback, .S2front, .S2back,  .Afront, .Aback, .Bfront, .Bback, .Lfront, .Lback, .Efront, .Eback {
   position: absolute;
-  width: 140;
-  height: 160;
+  width: 100%;
+  height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -69,20 +70,28 @@ body{
 #bottomrow{
   width: 100%;
   height: auto;
-  margin-top: 150;
-  color: ivory;
+  color: black;
+  float: left;
+  text-align: center;
 }
 
 a{
-  color: ivory;
+  color: black;
   text-decoration: none;
 }
 
 a:hover{
-     color: lightgrey; 
+     color: darkgrey; 
      text-decoration: none; 
      cursor: pointer;  
 }
+
+
+
+
+
+
+
 
 
 
