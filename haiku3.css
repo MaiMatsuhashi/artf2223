@@ -1,0 +1,33 @@
+body {
+	width: 767;
+	height: 1000;
+	background: white;
+	background-image: url(back3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.text{
+	font-family: "Courier New";
+	width: 300;
+	height: 100;
+	float: left;
+	font-size: 15;
+	padding-top: 350;
+	margin-left: 700;
+	line-height: 3;
+	text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px #000000;
+}
+
+a:hover{
+	color: darkgrey;
+	text-shadow: 1px 1px #000000;
+    text-decoration: none; 
+    cursor: pointer;  
+}

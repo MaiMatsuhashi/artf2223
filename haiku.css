@@ -1,0 +1,87 @@
+body {
+	width: 767;
+	height: 1000;
+	background: white;
+	background-image: url(back1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container{
+	width: 767;
+	height: 1000;
+}
+
+.text{
+	font-family: "Courier New";
+	width: 300;
+	height: 100;
+	float: left;
+	font-size: 15;
+	transform: rotate(349deg);
+	padding-top: 5;
+	margin-left: 461;
+	line-height: 3;
+	text-align: center;
+}
+
+.text2{
+	font-family: "Courier New";
+	width: 300;
+	height: 100;
+	float: left;
+	font-size: 15;
+	transform: rotate(349deg);
+	padding-top: 190;
+	margin-left: 502;
+	line-height: 3;
+	text-align: center;
+}
+
+.text3{
+	font-family: "Courier New";
+	width: 300;
+	height: 100;
+	float: left;
+	font-size: 15;
+	transform: rotate(349deg);
+	padding-top: 200;
+	margin-left: 561;
+	line-height: 3;
+	text-align: center;
+}
+
+.text4{
+	font-family: "Courier New";
+	width: 300;
+	height: 100;
+	float: left;
+	font-size: 15;
+	transform: rotate(349deg);
+	padding-top: 200;
+	margin-left: 620;
+	line-height: 3;
+	text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px #000000;
+}
+
+a:hover{
+	color: darkgrey;
+	text-shadow: 1px 1px #000000;
+    text-decoration: none; 
+    cursor: pointer;  
+}
+
+
+
+
+
+
+
+
+
