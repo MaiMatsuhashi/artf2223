@@ -4,7 +4,7 @@ body {
 	background: white;
 	background-image: url(back1.png);
 	background-repeat: no-repeat;
-	background-position: center;
+	padding-left: 192;
 }
 
 .container{
