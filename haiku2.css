@@ -1,10 +1,16 @@
 body {
-	width: 767;
-	height: 1000;
+	width: 768;
+	height: 1024;
 	background: white;
 	background-image: url(back2.png);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 342px 0px;
+	background-size: 768px 1024px;
+}
+
+.container{
+	width: 768;
+	height: 1024;
 }
 
 .text{
@@ -13,7 +19,7 @@ body {
 	height: 100;
 	float: left;
 	font-size: 15;
-	padding-top: 300;
+	padding-top: 320;
 	margin-left: 661;
 	line-height: 3;
 	text-align: center;
